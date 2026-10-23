@@ -1,0 +1,4 @@
+Iteration / Source,Forecaster,Buffer,Form,Alpha*,Beta*,Primary Cost ($),Full Cost ($),Test SL 0-14 (%),Holding ($),Stockout ($),Ordering Fees ($),Status / Explanation
+Old Step A4 (part_a_and_shared_sim.py),Mean,empirical_residual,rolling,0.7725,0.9256,,116563.55,92.53,59020.97,43302.59,14240.0,Baseline benchmark (used q90_res_men correctly in part_a)
+Old Round 3 Table (r3_prespecified_selection_summary.csv),Mean,empirical_residual,rolling,0.7725,0.9256,56524.1,115393.47,93.05,60539.15,40278.32,14576.0,SUPERSEDED: Used TFT q90 residuals due to missing Mean branch in unified_simulator
+Round V7 Unified Simulator (Fixed Dispatch & W1 Fee),Mean,empirical_residual,rolling,0.7725,0.9256,70806.09,116563.46,92.53,59020.89,43302.57,14240.0,"LOCKED: Cent-level reproduction of A4 ($116,563.46 / 92.53%) with val_q90_res_men"

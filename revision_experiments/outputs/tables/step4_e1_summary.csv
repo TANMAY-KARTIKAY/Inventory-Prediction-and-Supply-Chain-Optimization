@@ -1,0 +1,8 @@
+Policy,Optimizer,Alpha*,Beta*,Val Cost ($),Val Fill Rate (%),Test Cost ($),Test Holding ($),Test Stockout ($),Test Ordering ($),Test Fill Rate (%),Misses 95% on Test?,Bound Hit?,Evaluation Note
+Quantile TFT + Conformal PSO,PSO (Legacy Oracle),0.1,3.4879,,,136378.1,103576.04,21690.06,11112.0,96.41,False,Alpha=0.10 (at legacy lower bound),legacy (I0 = 0.7*S; includes generous starting stock)
+Quantile TFT + Conformal,PSO,0.1499,1.7514,104475.59,96.25,118981.11,68915.96,33081.14,16984.0,94.29,True,None,fair_val_tuned (frozen on validation)
+Quantile TFT + Conformal,GWO,0.154,1.7574,104491.51,96.27,119031.02,69133.64,32937.38,16960.0,94.32,True,None,fair_val_tuned (frozen on validation)
+Huber TFT + Gaussian,PSO,0.6221,1.4666,103025.26,96.28,127793.12,71805.21,36995.91,18992.0,93.62,True,None,fair_val_tuned (frozen on validation)
+Huber TFT + Gaussian,GWO,0.6106,1.4669,102987.81,96.25,127623.77,71595.12,37036.65,18992.0,93.61,True,None,fair_val_tuned (frozen on validation)
+Mean-Demand Gaussian,PSO,0.0,1.6756,106921.7,95.59,122457.92,54739.76,51670.16,16048.0,91.09,True,Alpha at lower bound (0.0),fair_val_tuned (frozen on validation)
+Mean-Demand Gaussian,GWO,0.0016,1.6671,106868.22,95.6,122521.08,54678.2,51722.88,16120.0,91.08,True,Alpha at lower bound (0.0),fair_val_tuned (frozen on validation)

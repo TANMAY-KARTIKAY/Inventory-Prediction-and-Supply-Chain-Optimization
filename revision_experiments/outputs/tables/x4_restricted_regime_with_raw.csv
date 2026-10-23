@@ -1,0 +1,7 @@
+Policy Configuration,Forecaster,Buffer Type,Form,Alpha*,Beta*,Val Fitness ($),Test Cost (W1 Prim 7-14) ($),Test Fill (Days 7-14) (%),Test Fill (Days 0-14) (%),Specification Role
+Quantile Conformal (Static),Quantile,conformal_quantile,static,0.1648,1.2172,99071.93,66918.16,94.74,93.82,Primary Benchmark
+Quantile Raw (Static),Quantile,raw_quantile,static,0.1892,1.2172,99194.39,67157.98,94.99,93.93,Uncalibrated Quantile Baseline
+"Huber None (Rolling, b=5.0)",Huber,none,rolling,0.0,4.9979,167136.43,88078.45,90.46,91.89,Base-Stock Ceiling Bound (5.0)
+"Huber None (Rolling, b=8.0)",Huber,none,rolling,0.0,8.0,155913.24,107955.34,91.77,92.49,Sensitivity (Ceiling expanded to 8.0)
+Seasonal Naive None (Rolling),SeasonalNaive,none,rolling,0.0,2.4629,115653.45,75417.49,92.77,92.94,Heuristic Baseline
+Mean Gaussian Demand (Rolling),Mean,gaussian_demand,rolling,0.0147,1.4765,98977.71,65345.74,90.59,91.95,Traditional Demand-Sigma Baseline

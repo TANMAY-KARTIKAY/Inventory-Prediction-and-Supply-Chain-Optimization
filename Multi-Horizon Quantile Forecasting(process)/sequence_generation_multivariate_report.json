@@ -1,0 +1,368 @@
+{
+  "sequence_design": {
+    "input_window_days": 28,
+    "forecast_horizon_days": 7,
+    "total_window_days": 35,
+    "past_feature_count": 18,
+    "future_feature_count": 14,
+    "past_features": [
+      "unit_sales_scaled",
+      "onpromotion",
+      "promotion_missing",
+      "was_observed",
+      "day_of_week_sin",
+      "day_of_week_cos",
+      "month_sin",
+      "month_cos",
+      "day_of_month_sin",
+      "day_of_month_cos",
+      "week_of_year_sin",
+      "week_of_year_cos",
+      "time_idx",
+      "is_holiday",
+      "is_event",
+      "is_additional",
+      "is_work_day",
+      "is_transfer"
+    ],
+    "future_features": [
+      "day_of_week_sin",
+      "day_of_week_cos",
+      "month_sin",
+      "month_cos",
+      "day_of_month_sin",
+      "day_of_month_cos",
+      "week_of_year_sin",
+      "week_of_year_cos",
+      "time_idx",
+      "is_holiday",
+      "is_event",
+      "is_additional",
+      "is_work_day",
+      "is_transfer"
+    ],
+    "static_metadata_cols": [
+      "store_nbr",
+      "item_nbr",
+      "family",
+      "class",
+      "perishable",
+      "city",
+      "state",
+      "type",
+      "cluster"
+    ],
+    "stride": 1
+  },
+  "feature_specifications": {
+    "time_idx_definition": "time_idx = (date - dataset_start_date).days / train_span_days",
+    "time_idx_normalization": {
+      "dataset_start_date": "2013-01-01",
+      "train_end_date": "2017-07-16",
+      "train_span_days": 1657.0,
+      "train_min_value": 0.0,
+      "train_max_value": 1.0,
+      "formula": "(date - Timestamp('2013-01-01')).days / 1657.0",
+      "method": "Fixed min-max scaling derived strictly from training span (2013-01-01 to 2017-07-16); linear continuation for validation/test"
+    },
+    "cyclical_encodings": {
+      "day_of_week": "sin/cos with period 7 (0 to 6)",
+      "month": "sin/cos with period 12 (1 to 12)",
+      "day_of_month": "sin/cos with period 31: sin(2*pi*day/31), cos(2*pi*day/31)",
+      "week_of_year": "sin/cos with period 53: sin(2*pi*week/53), cos(2*pi*week/53) to smoothly accommodate ISO week 53 without discontinuity"
+    }
+  },
+  "cutoffs": {
+    "train_end_date": "2017-07-16",
+    "validation_start_date": "2017-07-17",
+    "validation_end_date": "2017-07-31",
+    "test_start_date": "2017-08-01",
+    "test_end_date": "2017-08-15"
+  },
+  "source_hashes_preserved": {
+    "train": "40ecd28df406067208842c3ad4d4f26447d049dec63c0df472bd2bf588d24f23",
+    "validation": "b15c162c148a24339ec85b8c7299ce682c74b6491b3010594a0236642f0e5261",
+    "test": "5afd571764b1d325b518c72a61da0442cb58b0c32bf00b47ea0dc27a108c5edc"
+  },
+  "splits": {
+    "train": {
+      "sequence_count": 624451,
+      "participating_pair_count": 400,
+      "past_x_shape": [
+        624451,
+        28,
+        18
+      ],
+      "future_x_shape": [
+        624451,
+        7,
+        14
+      ],
+      "y_shape": [
+        624451,
+        7
+      ],
+      "y_raw_shape": [
+        624451,
+        7
+      ],
+      "windows_per_pair": {
+        "min": 555,
+        "median": 1623.0,
+        "mean": 1561.1275,
+        "max": 1624,
+        "distribution": {
+          "1623": 305,
+          "1518": 22,
+          "1550": 17,
+          "1258": 8,
+          "1622": 6,
+          "1078": 3,
+          "621": 3,
+          "1395": 3,
+          "1621": 3,
+          "1553": 3,
+          "1569": 2,
+          "771": 2,
+          "750": 2,
+          "1496": 2,
+          "801": 1,
+          "1567": 1,
+          "1584": 1,
+          "613": 1,
+          "555": 1,
+          "690": 1,
+          "1624": 1,
+          "1391": 1,
+          "1468": 1,
+          "1403": 1,
+          "1514": 1,
+          "662": 1,
+          "1620": 1,
+          "755": 1,
+          "1077": 1,
+          "1016": 1,
+          "860": 1,
+          "1607": 1,
+          "1111": 1
+        }
+      },
+      "past_features": [
+        "unit_sales_scaled",
+        "onpromotion",
+        "promotion_missing",
+        "was_observed",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "future_features": [
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "static_metadata_cols": [
+        "store_nbr",
+        "item_nbr",
+        "family",
+        "class",
+        "perishable",
+        "city",
+        "state",
+        "type",
+        "cluster"
+      ]
+    },
+    "validation": {
+      "sequence_count": 3299,
+      "participating_pair_count": 367,
+      "past_x_shape": [
+        3299,
+        28,
+        18
+      ],
+      "future_x_shape": [
+        3299,
+        7,
+        14
+      ],
+      "y_shape": [
+        3299,
+        7
+      ],
+      "y_raw_shape": [
+        3299,
+        7
+      ],
+      "windows_per_pair": {
+        "min": 5,
+        "median": 9.0,
+        "mean": 8.989100817438691,
+        "max": 9,
+        "distribution": {
+          "9": 366,
+          "5": 1
+        }
+      },
+      "past_features": [
+        "unit_sales_scaled",
+        "onpromotion",
+        "promotion_missing",
+        "was_observed",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "future_features": [
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "static_metadata_cols": [
+        "store_nbr",
+        "item_nbr",
+        "family",
+        "class",
+        "perishable",
+        "city",
+        "state",
+        "type",
+        "cluster"
+      ]
+    },
+    "test": {
+      "sequence_count": 3237,
+      "participating_pair_count": 363,
+      "past_x_shape": [
+        3237,
+        28,
+        18
+      ],
+      "future_x_shape": [
+        3237,
+        7,
+        14
+      ],
+      "y_shape": [
+        3237,
+        7
+      ],
+      "y_raw_shape": [
+        3237,
+        7
+      ],
+      "windows_per_pair": {
+        "min": 2,
+        "median": 9.0,
+        "mean": 8.917355371900827,
+        "max": 9,
+        "distribution": {
+          "9": 348,
+          "8": 9,
+          "6": 2,
+          "7": 2,
+          "5": 1,
+          "2": 1
+        }
+      },
+      "past_features": [
+        "unit_sales_scaled",
+        "onpromotion",
+        "promotion_missing",
+        "was_observed",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "future_features": [
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "month_sin",
+        "month_cos",
+        "day_of_month_sin",
+        "day_of_month_cos",
+        "week_of_year_sin",
+        "week_of_year_cos",
+        "time_idx",
+        "is_holiday",
+        "is_event",
+        "is_additional",
+        "is_work_day",
+        "is_transfer"
+      ],
+      "static_metadata_cols": [
+        "store_nbr",
+        "item_nbr",
+        "family",
+        "class",
+        "perishable",
+        "city",
+        "state",
+        "type",
+        "cluster"
+      ]
+    }
+  },
+  "generated_files": {
+    "train_sequences": "C:\\CODE\\favorita_inventory_pipeline\\outputs\\sequences_train.npz",
+    "validation_sequences": "C:\\CODE\\favorita_inventory_pipeline\\outputs\\sequences_validation.npz",
+    "test_sequences": "C:\\CODE\\favorita_inventory_pipeline\\outputs\\sequences_test.npz",
+    "sequence_index": "C:\\CODE\\favorita_inventory_pipeline\\outputs\\sequence_index.csv.gz",
+    "sequence_summary": "C:\\CODE\\favorita_inventory_pipeline\\outputs\\sequence_index_summary.csv"
+  }
+}

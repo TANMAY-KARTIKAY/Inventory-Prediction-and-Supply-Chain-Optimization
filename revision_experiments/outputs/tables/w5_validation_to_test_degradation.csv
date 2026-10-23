@@ -1,0 +1,13 @@
+Regime,Forecaster,Buffer,Form,Alpha*,Beta*,Bound Flag,Val Fitness ($),Val Cost ($),Val Fill Rate (0-14) (%),Val Fill Rate (7-14) (%),Test Cost (W1 Primary 7-14) ($),Test Holding (7-14) ($),Test Stockout (7-14) ($),Test Fee (Orders 0-7) ($),Test Fill Rate (7-14) (%),Test Fill Rate (0-14) (%),Test Cost (Robustness 0-14) ($),Degradation (Val 7-14 to Test 7-14) (%),Degradation (Val 0-14 to Test 0-14) (%)
+All Buffers,Quantile,empirical_residual,static,0.9286,1.2163,Interior,92154.21,92154.21,97.42,97.42,72759.1,46410.8,13924.31,12424.0,94.66,93.78,118516.48,2.76,3.64
+All Buffers,Huber,empirical_residual,static,1.0805,0.8435,Interior,92968.11,92968.11,97.42,97.42,81010.06,46845.58,18316.48,15848.0,92.97,93.02,126767.43,4.45,4.4
+All Buffers,SeasonalNaive,empirical_residual,static,0.8272,1.2164,Interior,97208.26,97208.26,96.43,96.43,69755.2,39246.01,19053.19,11456.0,92.69,92.9,115512.57,3.74,3.53
+All Buffers,Mean,empirical_residual,rolling,0.7725,0.9256,Interior,94785.63,94785.63,97.58,97.58,70806.09,35383.76,21182.33,14240.0,91.87,92.53,116563.46,5.71,5.05
+Restricted (No Val Residual Stats),Quantile,conformal_quantile,static,0.1648,1.2172,Interior,99071.93,99071.93,95.42,95.42,66918.16,41090.19,13707.97,12120.0,94.74,93.82,112675.53,0.68,1.6
+Restricted (No Val Residual Stats),Huber,none,rolling,0.0,4.9979,"Alpha at Lower Bound (0.0), Beta at Upper Bound (5.0)",167136.43,118254.68,94.01,94.01,88078.45,59050.31,24868.14,4160.0,90.46,91.89,133835.82,3.55,2.12
+Restricted (No Val Residual Stats),SeasonalNaive,none,rolling,0.0,2.4629,Alpha at Lower Bound (0.0),115653.45,107508.23,94.6,94.6,75417.49,49221.19,18836.31,7360.0,92.77,92.94,121174.87,1.82,1.66
+Restricted (No Val Residual Stats),Mean,gaussian_demand,rolling,0.0147,1.4765,Alpha at Lower Bound (0.0),98977.71,98977.71,95.61,95.61,65345.74,31120.71,24529.03,9696.0,90.59,91.95,111103.11,5.02,3.65
+"Restricted (Beta in [0.5, 8.0])",Huber,none,rolling,0.0,8.0,"Alpha at Lower Bound (0.0), Beta at Upper Bound (8.0)",155913.24,139012.93,94.42,94.42,107955.34,83546.08,21441.26,2968.0,91.77,92.49,153712.72,2.65,1.93
+"Restricted (Beta in [0.5, 8.0])",SeasonalNaive,none,rolling,0.0,2.4,Alpha at Lower Bound (0.0),116977.02,107257.29,94.56,94.56,75098.31,48716.76,18941.55,7440.0,92.73,92.92,120855.68,1.83,1.64
+Quantile Ablation,Quantile,raw_quantile,static,0.1892,1.2172,Interior,99194.39,99194.39,95.53,95.53,67157.98,41893.72,13064.26,12200.0,94.99,93.93,112915.35,0.55,1.6
+Quantile Ablation,Quantile,none,rolling,0.0,3.9731,Alpha at Lower Bound (0.0),113122.67,111479.35,94.82,94.82,77189.54,50037.58,22039.95,5112.0,91.54,92.38,122946.91,3.28,2.44

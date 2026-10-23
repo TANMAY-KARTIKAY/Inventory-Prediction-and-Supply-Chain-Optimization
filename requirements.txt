@@ -1,0 +1,19 @@
+# Core Machine Learning & Deep Learning
+torch>=2.0.0
+numpy>=1.23.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Serialization & Storage
+joblib>=1.2.0
+pyarrow>=12.0.0
+fastparquet>=2023.0.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Swarm & Evolutionary Optimization (Optional/Compatible)
+optuna>=3.0.0
+tqdm>=4.65.0

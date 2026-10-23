@@ -1,0 +1,7 @@
+Step,Change Description,Total Cost ($),Holding Cost ($),Stockout Cost ($),Ordering Cost ($),Fill Rate (%),Delta Cost ($)
+1. Legacy Baseline,"Original notebook row (test lookahead, generous I0)",136378.01,103575.63,21690.37,11112.0,96.41,0.0
+2. Causal D-bar,Replace realized test mean with trailing 28d mean,144205.38,104632.05,28405.33,11168.0,95.3,7827.38
+3. Causal Sigma,Validation residuals (zero effect on quantile buffer),144205.38,104632.05,28405.33,11168.0,95.3,0.0
+4. Fair I0 Rule,"Switch to 2*Dbar on hand, prefilled pipeline",115284.51,76053.96,28646.55,10584.0,95.26,-28920.87
+5. Recomputed Offsets,Use exact validation offsets (+0.1785 / +4.5766),115286.27,76055.72,28646.55,10584.0,95.26,1.76
+6. Arriving-Orders Accounting,Charge order fees only for arriving orders (days 0-7),110702.27,76055.72,28646.55,6000.0,95.26,-4584.0

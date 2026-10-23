@@ -1,0 +1,25 @@
+Target Test Fill Rate (%),Policy,Descriptive Cost ($),Achievable Min SL (%),Achievable Max SL (%),Status
+92.0,Quantile Conformal,113430.88,90.96,96.17,Interpolated
+92.0,Quantile Raw,113430.88,90.96,96.17,Interpolated
+92.0,Quantile None (a=0),113430.88,90.96,92.55,Interpolated
+92.0,Huber Gaussian,116123.39,90.36,94.67,Interpolated
+92.0,Mean-Demand Gauss,115382.54,91.17,95.99,Interpolated
+92.0,Seasonal Naive Gauss,N/A,92.51,96.11,N/A (Outside Range)
+93.0,Quantile Conformal,112495.30,90.96,96.17,Interpolated
+93.0,Quantile Raw,113568.53,90.96,96.17,Interpolated
+93.0,Quantile None (a=0),N/A,90.96,92.55,N/A (Outside Range)
+93.0,Huber Gaussian,122057.17,90.36,94.67,Interpolated
+93.0,Mean-Demand Gauss,113417.05,91.17,95.99,Interpolated
+93.0,Seasonal Naive Gauss,118814.50,92.51,96.11,Interpolated
+94.0,Quantile Conformal,119135.43,90.96,96.17,Interpolated
+94.0,Quantile Raw,124281.26,90.96,96.17,Interpolated
+94.0,Quantile None (a=0),N/A,90.96,92.55,N/A (Outside Range)
+94.0,Huber Gaussian,139618.33,90.36,94.67,Interpolated
+94.0,Mean-Demand Gauss,121893.46,91.17,95.99,Interpolated
+94.0,Seasonal Naive Gauss,119114.08,92.51,96.11,Interpolated
+95.0,Quantile Conformal,116598.41,90.96,96.17,Interpolated
+95.0,Quantile Raw,114402.11,90.96,96.17,Interpolated
+95.0,Quantile None (a=0),N/A,90.96,92.55,N/A (Outside Range)
+95.0,Huber Gaussian,N/A,90.36,94.67,N/A (Outside Range)
+95.0,Mean-Demand Gauss,116866.99,91.17,95.99,Interpolated
+95.0,Seasonal Naive Gauss,127902.48,92.51,96.11,Interpolated

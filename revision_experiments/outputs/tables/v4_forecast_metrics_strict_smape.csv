@@ -1,0 +1,18 @@
+Model,Horizon,MAE,RMSE,WAPE (%) [Primary],sMAPE (%) [Strict 0/0=0],sMAPE (%) [eps=0.002]
+Quantile TFT (P50),Overall (All Horizons),12.4326,35.2266,28.09,37.15,37.11
+Quantile TFT (P50),Horizon Day h=1,12.6829,36.7706,27.3,36.1,36.05
+Quantile TFT (P50),Horizon Day h=2,12.308,35.6576,27.39,36.56,36.52
+Quantile TFT (P50),Horizon Day h=3,12.3735,34.9118,27.58,36.86,36.82
+Quantile TFT (P50),Horizon Day h=4,12.3022,32.9656,27.31,36.71,36.68
+Quantile TFT (P50),Horizon Day h=5,12.3924,33.3775,27.88,37.32,37.3
+Quantile TFT (P50),Horizon Day h=6,12.584,36.2171,29.2,37.98,37.96
+Quantile TFT (P50),Horizon Day h=7,12.3853,36.4903,30.21,38.49,38.47
+Huber TFT,Horizon Day h=1,12.6431,32.6908,27.22,36.66,36.63
+Huber TFT,Horizon Day h=2,12.5037,31.4915,27.82,37.54,37.5
+Huber TFT,Horizon Day h=3,12.4284,29.9749,27.71,37.94,37.88
+Huber TFT,Horizon Day h=4,12.2522,27.4343,27.19,37.75,37.7
+Huber TFT,Horizon Day h=5,12.327,27.2937,27.74,38.33,38.31
+Huber TFT,Horizon Day h=6,12.435,28.5322,28.86,39.14,39.12
+Huber TFT,Horizon Day h=7,12.1222,28.9609,29.57,39.52,39.5
+Huber TFT,Overall (All Horizons),12.3874,29.5425,27.99,38.13,38.09
+Trailing Mean,Overall (All Horizons),16.6099,42.7669,37.52,45.06,45.05

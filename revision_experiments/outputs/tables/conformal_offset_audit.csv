@@ -1,0 +1,3 @@
+Tier,Hardcoded Constant,Val Signed Offset,Val Clipped Offset,Test Signed Offset,Test Clipped Offset,N_validation,N_test
+Standard Tier (avg_sales < 100),0.18,0.1785,0.1785,-0.17,0.0,19880,19523
+High-Volume Tier (avg_sales >= 100),4.51,4.5766,4.5766,0.924,0.924,3213,3136

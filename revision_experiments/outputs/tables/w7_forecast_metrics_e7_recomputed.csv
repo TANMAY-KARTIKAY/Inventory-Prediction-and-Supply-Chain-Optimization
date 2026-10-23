@@ -1,0 +1,33 @@
+Model,Horizon,MAE,RMSE,WAPE (%) [Primary Metric],Strict sMAPE (%) [0/0=0]
+Quantile TFT (P50),Overall (All Horizons),12.4326,35.2266,28.09,37.15
+Quantile TFT (P50),Horizon Day h=1,12.683,36.7706,27.3,36.1
+Quantile TFT (P50),Horizon Day h=2,12.308,35.6576,27.39,36.56
+Quantile TFT (P50),Horizon Day h=3,12.3735,34.9118,27.58,36.86
+Quantile TFT (P50),Horizon Day h=4,12.3022,32.9656,27.31,36.71
+Quantile TFT (P50),Horizon Day h=5,12.3925,33.3775,27.88,37.32
+Quantile TFT (P50),Horizon Day h=6,12.5841,36.2171,29.2,37.98
+Quantile TFT (P50),Horizon Day h=7,12.3853,36.4903,30.21,38.49
+Huber TFT,Overall (All Horizons),12.3874,29.5425,27.99,38.13
+Huber TFT,Horizon Day h=1,12.6431,32.6908,27.22,36.66
+Huber TFT,Horizon Day h=2,12.5037,31.4915,27.82,37.54
+Huber TFT,Horizon Day h=3,12.4284,29.9749,27.71,37.94
+Huber TFT,Horizon Day h=4,12.2522,27.4343,27.19,37.75
+Huber TFT,Horizon Day h=5,12.327,27.2937,27.74,38.33
+Huber TFT,Horizon Day h=6,12.435,28.5322,28.86,39.14
+Huber TFT,Horizon Day h=7,12.1222,28.9609,29.57,39.52
+Trailing 28-day Mean,Overall (All Horizons),16.6099,42.7669,37.52,45.06
+Trailing 28-day Mean,Horizon Day h=1,16.7344,44.0228,36.02,43.64
+Trailing 28-day Mean,Horizon Day h=2,16.8032,43.3417,37.39,44.41
+Trailing 28-day Mean,Horizon Day h=3,16.9116,43.0414,37.7,45.07
+Trailing 28-day Mean,Horizon Day h=4,16.9251,42.3183,37.57,45.11
+Trailing 28-day Mean,Horizon Day h=5,16.8029,40.5185,37.81,45.89
+Trailing 28-day Mean,Horizon Day h=6,16.517,43.6339,38.33,46.12
+Trailing 28-day Mean,Horizon Day h=7,15.5751,42.3964,37.99,45.18
+Seasonal Naive (Lag 7),Overall (All Horizons),18.4068,43.1502,41.58,50.09
+Seasonal Naive (Lag 7),Horizon Day h=1,18.1078,40.1431,38.98,51.17
+Seasonal Naive (Lag 7),Horizon Day h=2,18.2285,44.0177,40.56,50.87
+Seasonal Naive (Lag 7),Horizon Day h=3,18.2312,44.7921,40.64,49.76
+Seasonal Naive (Lag 7),Horizon Day h=4,18.5525,43.691,41.18,48.87
+Seasonal Naive (Lag 7),Horizon Day h=5,18.711,44.4835,42.1,49.17
+Seasonal Naive (Lag 7),Horizon Day h=6,18.6333,42.4415,43.24,50.03
+Seasonal Naive (Lag 7),Horizon Day h=7,18.3833,42.2993,44.84,50.77

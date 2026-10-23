@@ -1,0 +1,7 @@
+Table Name,Original Scoring Window,Original Fee Rule,Superseded Status,V7 Replacement Window & Rule
+r3_all_variants_val_vs_test.csv,Days 7-14 (Primary) & Days 0-14 (Robustness),"Gated for Primary (Day 7 only: $1,520 for Q); Ungated for Robustness (Days 0-7: $12,424)",SUPERSEDED by w1_selection_summary_all_and_restricted.csv,"Primary Days 7-14 with ALL orders placed on Days 0-7 ($12,424); separate SL 7-14 & 0-14"
+r3_prespecified_selection_summary.csv,Days 7-14 (Primary) & Days 0-14 (Robustness),Gated for Primary (Day 7 only); Ungated for Robustness (Days 0-7),SUPERSEDED by w1_selection_summary_all_and_restricted.csv,Primary Days 7-14 with ALL orders placed on Days 0-7; separate SL 7-14 & 0-14
+r4_matched_fill_frontier.csv,Days 0-14 (Full window from part_c grid),Arriving orders fee for Days 0-7,SUPERSEDED by w8_matched_fill_frontier_w1.csv,Primary Days 7-14 with ALL orders placed on Days 0-7 under W1 cost
+r5_cost_sensitivity_reoptimized.csv,"Validation Days 0-14, Test Days 7-14 & Days 0-14",Validation: Days 0-7; Test Primary: Gated (Day 7 only),SUPERSEDED by w8_cp_sensitivity_w1.csv,Re-optimized on Validation and evaluated on Test with W1 ungated fee
+r9_optimizers_benchmark.csv,"Validation Days 0-14, Test Days 7-14 & Days 0-14",Validation: Days 0-7; Test Primary: Gated (Day 7 only),SUPERSEDED by w3_bound_audit_and_beta8.csv,Evaluated on Test under W1 ungated fee
+v5_bootstraps_both_regimes.csv,Days 7-14,Gated (Day 7 fee only),SUPERSEDED by w4_bootstraps_both_regimes_w1.csv,W1 Total Cost = Holding(7-14) + Stockout(7-14) + Fee(Days 0-7)

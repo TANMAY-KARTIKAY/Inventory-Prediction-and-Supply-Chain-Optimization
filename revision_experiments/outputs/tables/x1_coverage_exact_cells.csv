@@ -1,0 +1,7 @@
+Split,Segment,Total Observations (N),Raw Covered Count,Raw Coverage (%),Raw 95% Series-CI,Calibrated Covered Count,Calibrated Coverage (%),Calibrated 95% Series-CI,Calibrated >= Raw Asserted?
+Validation,Overall Cohort,23093,20613,89.26% (20613/23093),"[88.76%, 89.74%]",20786,90.01% (20786/23093),"[89.53%, 90.47%]",True
+Validation,Standard Tier (avg_sales < 100),19880,17806,89.57% (17806/19880),"[89.06%, 90.08%]",17893,90.01% (17893/19880),"[89.51%, 90.51%]",True
+Validation,High-Volume Tier (avg_sales >= 100),3213,2807,87.36% (2807/3213),"[85.87%, 88.76%]",2893,90.04% (2893/3213),"[88.67%, 91.38%]",True
+Test,Overall Cohort,22659,20505,90.49% (20505/22659),"[90.05%, 90.93%]",20623,91.01% (20623/22659),"[90.57%, 91.43%]",True
+Test,Standard Tier (avg_sales < 100),19523,17689,90.61% (17689/19523),"[90.12%, 91.07%]",17763,90.98% (17763/19523),"[90.52%, 91.44%]",True
+Test,High-Volume Tier (avg_sales >= 100),3136,2816,89.80% (2816/3136),"[88.55%, 90.98%]",2860,91.20% (2860/3136),"[90.02%, 92.32%]",True

@@ -1,0 +1,4 @@
+Specification,k*,Alpha*,Beta*,Val Cost ($),Val Fill Rate (%),Test Cost ($),Test Holding ($),Test Stockout ($),Test Ordering ($),Test Ordering All Fees ($),Test Fill Rate (%)
+"Huber + Multiplier k (No Buffer (k, beta only))",1.0919,0.0,1.3622,99996.52,95.03,117585.07,62959.43,45185.64,9440.0,17536.0,92.21
+"Huber + Multiplier k (Gaussian Buffer (k, alpha, beta))",0.9107,0.9569,1.3413,96333.98,95.8,117851.05,61876.82,45886.23,10088.0,18472.0,92.08
+"Huber + Multiplier k (Empirical Residual Buffer (k, alpha, beta))",0.9311,1.2909,1.4903,92245.92,97.18,121965.8,67518.26,44911.54,9536.0,17392.0,92.25

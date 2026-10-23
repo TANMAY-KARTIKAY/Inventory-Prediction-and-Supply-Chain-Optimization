@@ -1,0 +1,6 @@
+Demand Tier,Daily Sales Range (units/day),Population Count,Population Share (%),400-Pair Cohort Count,400-Pair Share (%),363-Active Cohort Count,363-Active Share (%)
+Tier 1: Very Low Demand,<= 2.24,27791,20.0,2,0.5,2,0.55
+Tier 2: Low Demand,"(2.24, 3.30]",27790,20.0,6,1.5,5,1.38
+Tier 3: Medium Demand,"(3.30, 5.00]",27790,20.0,17,4.25,13,3.58
+Tier 4: High Demand,"(5.00, 8.96]",27790,20.0,22,5.5,21,5.79
+Tier 5: Very High Demand,> 8.96,27790,20.0,353,88.25,322,88.71

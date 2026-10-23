@@ -1,0 +1,3 @@
+Policy,Full Window Cost (Days 0-14) ($),Primary Window Cost (Days 7-14) ($),Delta Cost (Full - Prim) ($),Days 0-6 Holding Cost ($),Days 0-6 Stockout Cost ($),Days 0-6 Ordering Fee ($),Days 0-6 Component Sum ($),Sum Matches Delta Exactly?
+Quantile TFT Selected (Empirical Residual Static),118516.48,72759.1,45757.37,23637.13,22120.24,12424.0,58181.37,False
+Huber TFT Selected (Empirical Residual Static),126767.43,81010.06,45757.37,23637.13,22120.24,15848.0,61605.37,False

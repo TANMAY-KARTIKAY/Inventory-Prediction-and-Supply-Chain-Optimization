@@ -1,0 +1,13 @@
+Regime,Forecaster,Buffer,Form,Alpha*,Beta*,Val Fitness ($) [Tuning Target],Val Cost (0-14) ($),Val Fill Rate (Days 0-14) (%),Val Fill Rate (Days 7-14) (%),Val Fill Gap (0-14 minus 7-14) (%),Test Cost (W1 Prim 7-14) ($),Test Fill Rate (Days 7-14) (%),Test Fill Rate (Days 0-14) (%),Tuning Cost Window,Tuning Fill Window
+All Buffers,Quantile,empirical_residual,static,0.9286,1.2163,92154.21,92154.21,97.42,96.57,0.85,72759.1,94.66,93.78,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+All Buffers,Huber,empirical_residual,static,1.0805,0.8435,92968.11,92968.11,97.42,96.58,0.84,81010.06,92.97,93.02,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+All Buffers,SeasonalNaive,empirical_residual,static,0.8272,1.2164,97208.26,97208.26,96.43,94.54,1.89,69755.2,92.69,92.9,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+All Buffers,Mean,empirical_residual,rolling,0.7725,0.9256,94785.63,94785.63,97.58,96.91,0.67,70806.09,91.87,92.53,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted,Quantile,conformal_quantile,static,0.1648,1.2172,99071.93,99071.93,95.42,92.47,2.95,66918.16,94.74,93.82,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted,Quantile,raw_quantile,static,0.1892,1.2172,99194.39,99194.39,95.53,92.7,2.84,67157.98,94.99,93.93,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted,Huber,none,rolling,0.0,4.9979,167136.43,118254.68,94.01,89.57,4.44,88078.45,90.46,91.89,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted (Sensitivity),Huber,none,rolling,0.0,8.0,155913.24,139012.93,94.42,90.41,4.01,107955.34,91.77,92.49,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted,SeasonalNaive,none,rolling,0.0,2.4629,115653.45,107508.23,94.6,90.77,3.83,75417.49,92.77,92.94,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted (Sensitivity),SeasonalNaive,none,rolling,0.0,2.4,116977.02,107257.29,94.56,90.69,3.86,75098.31,92.73,92.92,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Restricted,Mean,gaussian_demand,rolling,0.0147,1.4765,98977.71,98977.71,95.61,92.85,2.76,65345.74,90.59,91.95,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14
+Quantile Ablation,Quantile,none,rolling,0.0,3.9731,113122.67,111479.35,94.82,91.23,3.59,77189.54,91.54,92.38,Days 0 to 14 (Arriving orders fee for days 0 to 7),Days 0 to 14

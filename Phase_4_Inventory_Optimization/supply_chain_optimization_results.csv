@@ -1,0 +1,5 @@
+Method,Reorder (z),Cover (c),Fill Rate (%),Holding Cost ($),Stockout Cost ($),Total Cost ($),Cost Savings ($)
+1. Classical Heuristic (Non-ML),1.645,4.00 days,99.75,139918.25,1538.18,152160.43,$0.00 (Baseline)
+2. TFT Unoptimized Policy,1.645,4.00 days,98.96,133940.08,6254.41,150722.49,"$1,437.94"
+3. TFT + PSO Optimized,0.5476,3.36 days,96.64,103349.32,20320.51,134925.83,"$17,234.60"
+4. TFT + GWO Optimized,0.5362,3.37 days,96.63,103372.27,20326.48,134938.76,"$17,221.67"

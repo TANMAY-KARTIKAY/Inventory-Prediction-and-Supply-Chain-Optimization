@@ -1,0 +1,6 @@
+sequence_idx,store_nbr,item_nbr,forecast_day,actual_sales,p90_forecast,is_high_vol,offset_applied,p90_calibrated,raw_covered,cal_covered
+1,1,159156,4,6.5,24.69,False,0.1785,24.8685,True,True
+71,1,812751,4,9.0,17.21,False,0.1785,17.3885,True,True
+171,2,699745,4,7.01,13.76,False,0.1785,13.9385,True,True
+357,4,319093,2,2.0,10.9,False,0.1785,11.0785,True,True
+442,5,215468,7,2.0,4.97,False,0.1785,5.148499999999999,True,True

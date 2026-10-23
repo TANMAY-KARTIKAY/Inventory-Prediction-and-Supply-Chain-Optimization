@@ -1,0 +1,4 @@
+Comparison,Mean Delta MAE (Pairs),95% Bootstrap CI (Delta MAE),Bootstrap p-value (Pairs),Wilcoxon W-Stat (Pairs N=363),Wilcoxon p-value,Quantile Pair Win Rate (%),Daily DM HLN Stat (T=15),Daily DM HLN p-value,Daily DM Power Flag,Summary Finding
+Quantile TFT (P50) vs Huber TFT,-0.2466,"[-1.1493, 0.5831]",0.596,31136.0,0.343,50.69,-1.6009,0.1317,Low Power (T=15 daily aggregates),Statistically equivalent (p=0.596)
+Quantile TFT (P50) vs Trailing 28-day Mean,-2.9824,"[-4.2445, -1.6156]",0.0005,15959.0,0.0,69.42,-6.4481,0.0,Low Power (T=15 daily aggregates),Quantile strictly superior (p < 0.001)
+Quantile TFT (P50) vs Seasonal Naive (Lag 7),-6.9951,"[-8.3672, -5.5992]",0.0005,2226.0,0.0,91.74,-6.7015,0.0,Low Power (T=15 daily aggregates),Quantile strictly superior (p < 0.001)

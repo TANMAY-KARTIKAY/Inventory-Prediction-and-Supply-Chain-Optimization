@@ -1,0 +1,3 @@
+Policy Variant,Val Cost ($),Val SL (%),Test Cost ($),Test SL (%)
+"Static Policy (s, S fixed on Day 0)",144235.78,98.94,166593.14,96.12
+"Rolling Policy (s_t, S_t updated daily from origin t)",144153.1,98.81,162262.23,96.01

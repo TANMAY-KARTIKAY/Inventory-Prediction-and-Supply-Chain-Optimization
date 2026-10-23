@@ -1,0 +1,9 @@
+Selection Regime,Forecaster,Selected Buffer,Selected Form,Alpha*,Beta*,Val Fitness ($),Val Cost ($),Val Fill Rate (%),Test Cost (Primary 7-14) ($),Test Fill Rate (Primary 7-14) (%),Test Cost (Robustness 0-14) ($),Test Holding ($),Test Stockout ($),Test Ordering ($),Test Fill Rate (Robustness 0-14) (%),Misses 95% on Test?
+All Buffers,Quantile,empirical_residual,static,0.9286,1.2163,92154.21,92154.21,97.42,72759.1,94.66,118516.48,70047.93,36044.55,12424.0,93.78,True
+All Buffers,Huber,empirical_residual,static,1.0805,0.8435,92968.11,92968.11,97.42,81010.06,92.97,126767.43,70482.71,40436.72,15848.0,93.02,True
+All Buffers,SeasonalNaive,empirical_residual,static,0.8272,1.2164,97208.26,97208.26,96.43,69755.2,92.69,115512.57,62883.14,41173.43,11456.0,92.9,True
+All Buffers,Mean,empirical_residual,rolling,0.7725,0.9256,94785.63,94785.63,97.58,70806.09,91.87,116563.46,59020.89,43302.57,14240.0,92.53,True
+Restricted (No Val Residual Stats),Quantile,conformal_quantile,static,0.1648,1.2172,99071.93,99071.93,95.42,66918.16,94.74,112675.53,64727.32,35828.21,12120.0,93.82,True
+Restricted (No Val Residual Stats),Huber,none,rolling,0.0,4.9979,167136.43,118254.68,94.01,88078.45,90.46,133835.82,82687.44,46988.38,4160.0,91.89,True
+Restricted (No Val Residual Stats),SeasonalNaive,none,rolling,0.0,2.4629,115653.45,107508.23,94.6,75417.49,92.77,121174.87,72858.32,40956.55,7360.0,92.94,True
+Restricted (No Val Residual Stats),Mean,gaussian_demand,rolling,0.0147,1.4765,98977.71,98977.71,95.61,65345.74,90.59,111103.11,54757.84,46649.27,9696.0,91.95,True

@@ -1,0 +1,5 @@
+Policy,Days 0-6 Holding Cost ($),Days 0-6 Stockout Penalty ($),Days 0-6 Sum (Holding + Stockout) ($),Full minus Prim Delta ($),"Exact Match with $45,757.37?"
+Quantile Conformal (Static),23637.13,22120.24,45757.37,45757.37,True
+Quantile Raw (Static),23637.13,22120.24,45757.37,45757.37,True
+"Huber None (Rolling, b=5.0)",23637.13,22120.24,45757.37,45757.37,True
+"Huber None (Rolling, b=8.0)",23637.13,22120.24,45757.37,45757.37,True

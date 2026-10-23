@@ -1,0 +1,13 @@
+Regime,Comparison,Cohort,Mean Cost Delta ($),Cost Delta 95% CI ($),Mean Fill Delta (%),Fill Delta 95% CI (%),Share Pol A Cheaper (%)
+All Buffers,Quantile Sel vs Huber Sel,All Pairs (N=363),-8223.72,"[-19104.83, -2126.05]",1.64,"[-0.70, 5.57]",100.0
+All Buffers,Quantile Sel vs Huber Sel,Excl Top 20 (N=343),-2710.43,"[-3797.76, -1686.82]",0.01,"[-0.41, 0.43]",100.0
+All Buffers,Quantile Sel vs Seasonal Naive Sel,All Pairs (N=363),2910.97,"[-2273.35, 9881.22]",2.05,"[-1.51, 4.63]",17.2
+All Buffers,Quantile Sel vs Seasonal Naive Sel,Excl Top 20 (N=343),2206.67,"[-228.15, 4588.13]",2.95,"[2.07, 3.96]",4.0
+All Buffers,Quantile Sel vs Mean-Demand Sel,All Pairs (N=363),1947.68,"[-1780.42, 5870.86]",2.79,"[1.25, 4.16]",16.6
+All Buffers,Quantile Sel vs Mean-Demand Sel,Excl Top 20 (N=343),1417.95,"[-1032.27, 3889.33]",3.24,"[2.00, 4.41]",13.3
+Restricted,Quantile Sel vs Huber Sel,All Pairs (N=363),-21151.24,"[-31760.98, -13625.86]",4.26,"[1.58, 7.90]",100.0
+Restricted,Quantile Sel vs Huber Sel,Excl Top 20 (N=343),-9996.14,"[-12886.19, -7220.25]",3.19,"[2.11, 4.31]",100.0
+Restricted,Quantile Sel vs Seasonal Naive Sel,All Pairs (N=363),-8488.4,"[-13471.28, -3317.15]",1.95,"[-0.98, 4.33]",99.9
+Restricted,Quantile Sel vs Seasonal Naive Sel,Excl Top 20 (N=343),-4607.27,"[-8065.99, -256.06]",3.28,"[0.89, 4.95]",98.0
+Restricted,Quantile Sel vs Mean-Demand Sel,All Pairs (N=363),1577.78,"[-2182.15, 5232.72]",4.17,"[2.88, 5.45]",20.2
+Restricted,Quantile Sel vs Mean-Demand Sel,Excl Top 20 (N=343),3250.54,"[676.40, 5846.20]",4.42,"[3.09, 5.61]",0.5

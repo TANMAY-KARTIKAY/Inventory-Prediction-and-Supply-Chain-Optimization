@@ -1,0 +1,21 @@
+Split,Segment,N Observations,P90 Coverage Raw (%),P90 Coverage Calibrated (%),P90 Calibrated 95% Series-CI,P10-P90 Interval Coverage Raw (%),P10-P90 Interval Coverage Calibrated (%),Mean Width Raw (Sharpness),Mean Width Calibrated (Sharpness)
+Validation,Overall Cohort,23093,89.26,90.01,N/A,77.5,78.24,32.9954,33.7858
+Validation,Standard Tier (avg_sales < 100),19880,89.57,90.01,N/A,77.34,77.78,23.2738,23.4523
+Validation,High-Volume Tier (avg_sales >= 100),3213,87.36,90.04,N/A,78.43,81.11,93.1468,97.7234
+Validation,Horizon Day h=1,3299,89.97,90.6,N/A,78.57,79.21,32.8456,33.636
+Validation,Horizon Day h=2,3299,89.42,90.54,N/A,77.57,78.69,32.0455,32.8359
+Validation,Horizon Day h=3,3299,89.39,90.06,N/A,77.9,78.57,31.8454,32.6358
+Validation,Horizon Day h=4,3299,89.18,89.75,N/A,78.02,78.6,32.5767,33.3671
+Validation,Horizon Day h=5,3299,89.51,90.18,N/A,77.69,78.36,33.5571,34.3475
+Validation,Horizon Day h=6,3299,89.06,89.85,N/A,76.54,77.33,34.099,34.8894
+Validation,Horizon Day h=7,3299,88.3,89.09,N/A,76.17,76.96,33.9987,34.7891
+Test,Overall Cohort,22659,90.49,91.01,"[90.58%, 91.45%]",78.87,79.39,35.7211,36.5082
+Test,Standard Tier (avg_sales < 100),19523,90.61,90.98,N/A,79.32,79.7,24.7209,24.8994
+Test,High-Volume Tier (avg_sales >= 100),3136,89.8,91.2,N/A,76.12,77.52,104.2016,108.7782
+Test,Horizon Day h=1,3237,90.39,90.82,N/A,79.21,79.64,35.9516,36.7388
+Test,Horizon Day h=2,3237,90.36,90.98,N/A,79.67,80.29,34.985,35.7722
+Test,Horizon Day h=3,3237,90.73,91.23,N/A,79.3,79.8,35.857,36.6442
+Test,Horizon Day h=4,3237,90.7,91.26,N/A,78.65,79.21,36.2334,37.0206
+Test,Horizon Day h=5,3237,91.1,91.54,N/A,78.99,79.43,36.2097,36.9969
+Test,Horizon Day h=6,3237,90.49,91.01,N/A,78.1,78.62,35.9117,36.6989
+Test,Horizon Day h=7,3237,89.68,90.27,N/A,78.19,78.78,34.899,35.6862

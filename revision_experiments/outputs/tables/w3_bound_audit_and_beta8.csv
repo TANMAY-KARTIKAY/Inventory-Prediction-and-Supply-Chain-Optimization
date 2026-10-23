@@ -1,0 +1,13 @@
+Regime,Forecaster,Buffer,Form,Alpha*,Beta*,Bound Flag,Val Fitness ($),Test Cost (W1 Primary 7-14) ($),Test Fill Rate (7-14) (%)
+All Buffers,Quantile,empirical_residual,static,0.9286,1.2163,Interior,92154.21,72759.1,94.66
+All Buffers,Huber,empirical_residual,static,1.0805,0.8435,Interior,92968.11,81010.06,92.97
+All Buffers,SeasonalNaive,empirical_residual,static,0.8272,1.2164,Interior,97208.26,69755.2,92.69
+All Buffers,Mean,empirical_residual,rolling,0.7725,0.9256,Interior,94785.63,70806.09,91.87
+Restricted (No Val Residual Stats),Quantile,conformal_quantile,static,0.1648,1.2172,Interior,99071.93,66918.16,94.74
+Restricted (No Val Residual Stats),Huber,none,rolling,0.0,4.9979,"Alpha at Lower Bound (0.0), Beta at Upper Bound (5.0)",167136.43,88078.45,90.46
+Restricted (No Val Residual Stats),SeasonalNaive,none,rolling,0.0,2.4629,Alpha at Lower Bound (0.0),115653.45,75417.49,92.77
+Restricted (No Val Residual Stats),Mean,gaussian_demand,rolling,0.0147,1.4765,Alpha at Lower Bound (0.0),98977.71,65345.74,90.59
+"Restricted (Beta in [0.5, 8.0])",Huber,none,rolling,0.0,8.0,"Alpha at Lower Bound (0.0), Beta at Upper Bound (8.0)",155913.24,107955.34,91.77
+"Restricted (Beta in [0.5, 8.0])",SeasonalNaive,none,rolling,0.0,2.4,Alpha at Lower Bound (0.0),116977.02,75098.31,92.73
+Quantile Ablation,Quantile,raw_quantile,static,0.1892,1.2172,Interior,99194.39,67157.98,94.99
+Quantile Ablation,Quantile,none,rolling,0.0,3.9731,Alpha at Lower Bound (0.0),113122.67,77189.54,91.54

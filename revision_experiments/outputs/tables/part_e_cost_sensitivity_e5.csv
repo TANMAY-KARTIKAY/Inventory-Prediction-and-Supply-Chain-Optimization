@@ -1,0 +1,15 @@
+Parameter Varied,Parameter Value,Quantile Conformal Cost ($),Quantile Conformal SL (%),Huber Gaussian Cost ($),Huber Gaussian SL (%),Delta Cost (Quantile - Huber) ($),Quantile Cheaper?,Ranking Flip Occurred?
+Stockout Penalty (cp),1.0,84710.92,92.55,89787.21,92.22,-5076.3,True,False
+Stockout Penalty (cp),2.5,110329.21,93.22,119242.63,92.6,-8913.42,True,False
+Stockout Penalty (cp),4.0,132167.71,94.99,149180.73,93.11,-17013.03,True,False
+Stockout Penalty (cp),5.2,146106.97,94.99,168340.34,93.11,-22233.37,True,False
+Stockout Penalty (cp),7.5,172823.88,94.99,201886.64,93.46,-29062.75,True,False
+Stockout Penalty (cp),10.0,201864.01,94.99,239779.15,93.46,-37915.14,True,False
+Holding Cost Multiplier,0.5,80249.11,93.42,86279.1,92.52,-6029.99,True,False
+Holding Cost Multiplier,0.75,95377.42,93.42,102711.76,92.52,-7334.34,True,False
+Holding Cost Multiplier,1.25,125634.04,93.42,135577.07,92.52,-9943.03,True,False
+Holding Cost Multiplier,1.5,140762.35,93.42,152009.73,92.52,-11247.38,True,False
+Ordering Cost Multiplier,0.5,104581.73,93.42,114124.42,92.52,-9542.69,True,False
+Ordering Cost Multiplier,0.75,107543.73,93.42,116634.42,92.52,-9090.69,True,False
+Ordering Cost Multiplier,1.25,113467.73,93.42,121654.42,92.52,-8186.69,True,False
+Ordering Cost Multiplier,1.5,116429.73,93.42,124164.42,92.52,-7734.69,True,False

@@ -1,0 +1,6 @@
+Segment,Pair Count,Quantile MAE,Huber MAE,Quantile WAPE (%),Huber WAPE (%)
+Low Demand (<10),72,4.7005,4.7165,59.58,59.78
+Medium Demand (10-100),260,10.6388,10.7487,25.55,25.81
+High Demand (>=100),31,67.2561,68.7539,30.48,31.16
+Perishable SKUs,175,11.6535,11.1281,24.38,23.28
+Dry SKUs,188,16.7558,17.6499,31.92,33.62

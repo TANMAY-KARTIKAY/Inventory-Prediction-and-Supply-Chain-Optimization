@@ -1,0 +1,7 @@
+Baseline Policy,Forecaster,Buffer,Alpha*,Beta*,Val Cost ($),Val Fill Rate (%),Test Cost ($),Test Holding ($),Test Stockout ($),Test Ordering ($),Test Ordering All Fees ($),Test Fill Rate (%),Misses 95% on Test?
+"Seasonal Naive (None, alpha=0)",SeasonalNaive,none,0.0,2.4629,107508.21,94.6,121174.84,72858.27,40956.56,7360.0,11112.0,92.94,True
+Seasonal Naive (Gaussian Buffer),SeasonalNaive,gaussian_residual,0.398,1.2704,100997.3,95.86,118182.52,70559.66,35750.86,11872.0,18040.0,93.83,True
+Seasonal Naive (Empirical Residual Buffer),SeasonalNaive,empirical_residual,1.2016,1.2371,99220.06,97.63,123159.24,79170.2,31149.03,12840.0,19288.0,94.63,True
+"Trailing 28d Mean (None, alpha=0)",Mean,none,0.0,1.4827,99195.98,95.53,111409.01,54612.67,47172.34,9624.0,17064.0,91.86,True
+Trailing 28d Mean (Gaussian Buffer),Mean,gaussian_demand,0.0147,1.4765,98977.83,95.61,111103.23,54758.36,46648.87,9696.0,17160.0,91.95,True
+Trailing 28d Mean (Empirical Residual Buffer),Mean,empirical_residual,0.7725,0.9256,94785.58,97.58,116563.55,59020.97,43302.59,14240.0,25264.0,92.53,True

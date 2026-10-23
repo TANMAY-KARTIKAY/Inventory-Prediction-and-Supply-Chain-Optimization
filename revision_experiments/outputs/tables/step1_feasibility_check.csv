@@ -1,0 +1,4 @@
+Forecaster,Alpha,Beta,Val Fill Rate (%),Val Cost ($),Test Fill Rate (%),Test Cost ($),Meets 97% Feasibility Threshold?
+Quantile TFT + Conformal,1.5,5.0,99.07,177534.57,96.17,205212.55,True
+Huber TFT + Gaussian,1.5,5.0,98.5,127594.46,94.51,164117.59,True
+Mean-Demand Gaussian,1.5,5.0,98.76,154903.54,95.54,156035.07,True

@@ -1,0 +1,14 @@
+Policy,alpha,beta,Mode,dbar_source,I_0_source,warmup,Total Cost ($),Holding Cost ($),Stockout Cost ($),Ordering Cost ($),Fill Rate (%)
+Quantile TFT + Conformal PSO,0.1,3.4879,oracle (uses test information),test_15d_realized,policy_dependent,False,136378.1,103576.04,21690.06,11112.0,96.41
+Mean-demand Gaussian,1.0,4.0,fair_trailing_28d,trailing_28d,standardized_causal,False,246961.29,110136.94,127920.35,8904.0,78.82
+Huber TFT + Gaussian,1.0,4.0,fair_trailing_28d,trailing_28d,standardized_causal,False,248872.74,112460.01,127508.73,8904.0,78.89
+Quantile Default,1.0,4.0,fair_trailing_28d,trailing_28d,standardized_causal,False,283509.87,148828.24,125713.63,8968.0,79.19
+Quantile TFT (PSO params),0.1,3.4879,fair_trailing_28d,trailing_28d,standardized_causal,False,238498.3,101004.4,127845.9,9648.0,78.84
+Mean-demand Gaussian,1.0,4.0,fair_p50_forecast,p50_forecast,standardized_causal,False,254942.31,119747.6,126530.71,8664.0,79.05
+Huber TFT + Gaussian,1.0,4.0,fair_p50_forecast,p50_forecast,standardized_causal,False,248913.83,112988.9,127292.92,8632.0,78.93
+Quantile Default,1.0,4.0,fair_p50_forecast,p50_forecast,standardized_causal,False,283947.69,149378.85,125848.84,8720.0,79.17
+Quantile TFT (PSO params),0.1,3.4879,fair_p50_forecast,p50_forecast,standardized_causal,False,237112.07,99744.65,128079.42,9288.0,78.8
+Mean-demand Gaussian,1.0,4.0,fair_trailing_28d_warmup,trailing_28d,standardized_causal,True,100501.97,91471.24,4094.74,4936.0,98.59
+Huber TFT + Gaussian,1.0,4.0,fair_trailing_28d_warmup,trailing_28d,standardized_causal,True,102437.42,93794.31,3683.11,4960.0,98.73
+Quantile Default,1.0,4.0,fair_trailing_28d_warmup,trailing_28d,standardized_causal,True,137050.55,130162.54,1888.01,5000.0,99.35
+Quantile TFT (PSO params),0.1,3.4879,fair_trailing_28d_warmup,trailing_28d,standardized_causal,True,91014.99,82338.7,4020.29,4656.0,98.61

@@ -1,0 +1,7 @@
+Policy,Before Beta*,After Beta*,Before Test Cost ($),After Test Cost ($),Delta Cost ($),Before Test SL (%),After Test SL (%),Changed?
+"Seasonal Naive (None, alpha=0)",3.7472,2.4629,130732.98,121174.84,-9558.14,93.23,92.94,True
+Seasonal Naive (Gaussian Buffer),1.7477,1.2704,125370.27,118182.52,-7187.75,94.0,93.83,True
+Seasonal Naive (Empirical Residual Buffer),1.7526,1.2371,125609.48,123159.24,-2450.24,94.05,94.63,True
+"Trailing 28d Mean (None, alpha=0)",1.6756,1.4827,122454.96,111409.01,-11045.95,91.09,91.86,True
+Trailing 28d Mean (Gaussian Buffer),1.6756,1.4765,122457.92,111103.23,-11354.69,91.09,91.95,True
+Trailing 28d Mean (Empirical Residual Buffer),1.7668,0.9256,123549.94,116563.55,-6986.39,92.47,92.53,True

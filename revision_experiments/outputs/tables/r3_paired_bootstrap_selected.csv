@@ -1,0 +1,23 @@
+Comparison,Scoring Window,Cohort,Mean Cost Delta ($),Cost Delta 95% CI ($),Mean Fill Delta (%),Fill Delta 95% CI (%),Share Pol A Cheaper (%)
+Quantile Selected vs Huber Selected,Primary (Days 7-14),All Pairs (N=363),-8223.72,"[-19104.83, -2126.05]",1.64,"[-0.70, 5.57]",100.0
+Quantile Selected vs Huber Selected,Primary (Days 7-14),Excluding Top 20 Volume Pairs (N=343),-2809.71,"[-3863.15, -1794.57]",0.02,"[-0.41, 0.44]",100.0
+Quantile Selected vs Huber Selected,Robustness (Days 0-14),All Pairs (N=363),-8211.05,"[-18455.87, -2087.72]",0.73,"[-0.34, 2.42]",100.0
+Quantile Selected vs Huber Selected,Robustness (Days 0-14),Excluding Top 20 Volume Pairs (N=343),-2820.11,"[-3866.70, -1764.06]",0.01,"[-0.18, 0.20]",100.0
+Quantile Selected vs Seasonal Naive Selected,Primary (Days 7-14),All Pairs (N=363),2915.26,"[-2369.11, 9696.18]",2.05,"[-1.56, 4.50]",17.2
+Quantile Selected vs Seasonal Naive Selected,Primary (Days 7-14),Excluding Top 20 Volume Pairs (N=343),1090.43,"[-2037.67, 3829.17]",3.74,"[2.52, 5.16]",22.3
+Quantile Selected vs Seasonal Naive Selected,Robustness (Days 0-14),All Pairs (N=363),3033.78,"[-2266.24, 9708.13]",0.9,"[-0.75, 2.05]",17.7
+Quantile Selected vs Seasonal Naive Selected,Robustness (Days 0-14),Excluding Top 20 Volume Pairs (N=343),1123.78,"[-2003.16, 3981.13]",1.67,"[1.10, 2.35]",22.9
+Quantile Selected vs Mean Selected,Primary (Days 7-14),All Pairs (N=363),1993.02,"[-1691.65, 5778.68]",2.76,"[1.31, 4.16]",15.9
+Quantile Selected vs Mean Selected,Primary (Days 7-14),Excluding Top 20 Volume Pairs (N=343),209.57,"[-2450.79, 3034.95]",3.81,"[2.45, 5.01]",45.4
+Quantile Selected vs Mean Selected,Robustness (Days 0-14),All Pairs (N=363),1923.57,"[-1929.64, 5924.50]",1.27,"[0.62, 1.91]",16.8
+Quantile Selected vs Mean Selected,Robustness (Days 0-14),Excluding Top 20 Volume Pairs (N=343),221.0,"[-2411.06, 3018.40]",1.7,"[1.11, 2.28]",42.9
+Quantile Conformal vs Quantile None,Primary (Days 7-14),All Pairs (N=363),-12519.72,"[-18264.44, -8195.99]",2.32,"[1.02, 3.85]",100.0
+Quantile Conformal vs Quantile None,Primary (Days 7-14),Excluding Top 20 Volume Pairs (N=343),-5183.03,"[-6954.38, -3419.81]",1.01,"[0.34, 1.75]",100.0
+Quantile Conformal vs Quantile None,Robustness (Days 0-14),All Pairs (N=363),-12436.35,"[-17947.15, -7858.10]",1.03,"[0.43, 1.79]",100.0
+Quantile Conformal vs Quantile None,Robustness (Days 0-14),Excluding Top 20 Volume Pairs (N=343),-5176.0,"[-7062.14, -3471.05]",0.45,"[0.13, 0.77]",100.0
+Quantile Conformal vs Quantile Raw,Primary (Days 7-14),All Pairs (N=363),301.33,"[-111.64, 793.77]",0.03,"[-0.13, 0.18]",7.4
+Quantile Conformal vs Quantile Raw,Primary (Days 7-14),Excluding Top 20 Volume Pairs (N=343),116.4,"[-154.78, 352.94]",0.12,"[0.01, 0.26]",17.8
+Quantile Conformal vs Quantile Raw,Robustness (Days 0-14),All Pairs (N=363),309.15,"[-99.57, 817.60]",0.01,"[-0.06, 0.08]",7.4
+Quantile Conformal vs Quantile Raw,Robustness (Days 0-14),Excluding Top 20 Volume Pairs (N=343),116.31,"[-152.66, 348.10]",0.05,"[0.00, 0.12]",18.4
+Conformal vs None (High-Volume Pairs Only),Primary (Days 7-14),High-Volume Pairs Only (N=50),-7565.27,"[-11076.07, -4850.51]",2.39,"[0.59, 4.32]",100.0
+Conformal vs None (High-Volume Pairs Only),Robustness (Days 0-14),High-Volume Pairs Only (N=50),-7475.19,"[-10992.01, -4789.88]",1.0,"[0.19, 1.87]",100.0

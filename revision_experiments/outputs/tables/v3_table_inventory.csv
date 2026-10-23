@@ -1,0 +1,18 @@
+Output Table,Generating Script,Uses unified_simulator.py,Origin-0 Vectors for Static,Status
+r1_simulator_reconciliation.csv,r1_r2_reconciliation.py,True,True,Active Final
+r3_prespecified_selection_summary.csv,r3_prespecified_selection.py,True,True,Active Final
+r3_all_variants_val_vs_test.csv,r3_prespecified_selection.py,True,True,Active Final
+r3_paired_bootstrap_selected.csv,r3_prespecified_selection.py,True,True,Active Final
+r4_matched_fill_frontier.csv,r4_matched_fill_frontier.py,True,True,Active Final
+r5_cost_sensitivity_reoptimized.csv,r5_cost_sensitivity.py,True,True,Active Final
+r6_forecast_metrics_e7_recomputed.csv,r6_forecast_metrics_recomputation.py,False,N/A (Forecast Metrics),Active Final
+r7_population_representativeness_e9.csv,r7_r8_population_and_conformal.py,False,N/A (Population Audit),Active Final
+r8_conformal_coverage_cis.csv,r7_r8_population_and_conformal.py,False,N/A (Conformal Audit),Active Final
+r9_optimizers_benchmark.csv,r9_optimizers_benchmark.py,True,True,Active Final
+step1_feasibility_check.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r1-r3
+step2_initialization_sensitivity.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r1-r3
+step3_causality_audit.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r1-r3
+step4_e1_summary.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r3_selection
+step4_e2_grid_search.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r5_sensitivity
+step4_e3_factorial_ablation.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r3_selection
+step5_pareto_matched_fill_rate.csv,step1_to_step5_experiments.py,False,False,SUPERSEDED by r4_frontier

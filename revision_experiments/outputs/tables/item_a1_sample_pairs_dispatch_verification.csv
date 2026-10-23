@@ -1,0 +1,21 @@
+Pair Index,Store,Item,Forecaster,Buffer,Lead Forecast Sum,Reorder Point s,Order-Up-To S
+10,1,1004551,Quantile,conformal_quantile,95.74,131.05,160.91
+10,1,1004551,Huber,gaussian_residual,98.59,111.1,140.96
+10,1,1004551,SeasonalNaive,none,146.0,146.0,175.86
+10,1,1004551,Mean,none,104.5,104.5,134.36
+50,5,273528,Quantile,conformal_quantile,83.9,110.15,130.15
+50,5,273528,Huber,gaussian_residual,72.79,79.43,99.43
+50,5,273528,SeasonalNaive,none,55.0,55.0,75.0
+50,5,273528,Mean,none,70.0,70.0,90.0
+100,9,273528,Quantile,conformal_quantile,160.6,200.85,232.78
+100,9,273528,Huber,gaussian_residual,161.47,172.79,204.72
+100,9,273528,SeasonalNaive,none,108.0,108.0,139.93
+100,9,273528,Mean,none,111.75,111.75,143.68
+200,34,828630,Quantile,conformal_quantile,188.57,236.9,279.9
+200,34,828630,Huber,gaussian_residual,172.54,187.75,230.75
+200,34,828630,SeasonalNaive,none,170.0,170.0,213.0
+200,34,828630,Mean,none,150.5,150.5,193.5
+300,47,903285,Quantile,conformal_quantile,1222.69,1589.61,1897.71
+300,47,903285,Huber,gaussian_residual,1135.18,1228.32,1536.41
+300,47,903285,SeasonalNaive,none,1328.32,1328.32,1636.42
+300,47,903285,Mean,none,1078.34,1078.34,1386.44

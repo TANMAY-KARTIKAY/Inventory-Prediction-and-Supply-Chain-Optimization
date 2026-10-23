@@ -1,0 +1,19 @@
+Selection Regime,Comparison,Cohort,Model A Cost ($),Model B Cost ($),Delta Cost (A - B) ($),95% CI Delta Cost,p-value (Cost),Model A Fill Rate (%),Model B Fill Rate (%),Delta Fill Rate (A - B) (%),95% CI Delta Fill Rate,p-value (Fill Rate),Model A Pair Win Rate (%)
+All Buffers,Quantile TFT vs Huber TFT,All Pairs (N=363),72759.1,81010.06,-8250.95,"[-19104.83, -2126.05]",0.001,94.66,92.97,1.69,"[-0.70, 5.57]",0.366,66.39
+All Buffers,Quantile TFT vs Huber TFT,Excl Top 20 Volume (N=343),53885.78,56698.9,-2813.11,"[-3862.10, -1798.18]",0.0005,96.14,96.12,0.01,"[-0.38, 0.44]",0.932,66.18
+All Buffers,Quantile TFT vs Seasonal Naive,All Pairs (N=363),72759.1,69755.2,3003.91,"[-2545.25, 10040.93]",0.361,94.66,92.69,1.97,"[-1.75, 4.57]",0.243,38.02
+All Buffers,Quantile TFT vs Seasonal Naive,Excl Top 20 Volume (N=343),53885.78,52775.59,1110.2,"[-2012.47, 3941.53]",0.437,96.14,92.41,3.73,"[2.50, 5.16]",0.0005,37.03
+All Buffers,Quantile TFT vs Trailing Mean,All Pairs (N=363),72759.1,70806.09,1953.02,"[-2133.14, 5946.68]",0.321,94.66,91.87,2.79,"[1.44, 4.20]",0.0005,46.56
+All Buffers,Quantile TFT vs Trailing Mean,Excl Top 20 Volume (N=343),53885.78,53667.7,218.08,"[-2447.79, 3066.21]",0.88,96.14,92.33,3.8,"[2.36, 5.05]",0.0005,47.52
+Restricted (No-Fit),Quantile Conformal vs Huber None (b=4.9979),All Pairs (N=363),66918.16,88078.45,-21160.29,"[-32245.10, -13113.71]",0.0005,94.74,90.46,4.28,"[1.62, 8.10]",0.0005,60.06
+Restricted (No-Fit),Quantile Conformal vs Huber None (b=4.9979),Excl Top 20 Volume (N=343),51227.08,61258.95,-10031.86,"[-12672.83, -7242.07]",0.0005,95.85,92.64,3.22,"[2.09, 4.26]",0.0005,58.02
+Restricted (No-Fit),Quantile Conformal vs Huber None (b=8.0000),All Pairs (N=363),66918.16,107955.34,-41037.19,"[-53492.76, -31347.72]",0.0005,94.74,91.77,2.97,"[0.48, 6.85]",0.005,73.28
+Restricted (No-Fit),Quantile Conformal vs Huber None (b=8.0000),Excl Top 20 Volume (N=343),51227.08,75700.13,-24473.05,"[-28485.52, -20544.26]",0.0005,95.85,94.4,1.45,"[0.50, 2.38]",0.005,71.72
+Restricted (No-Fit),Quantile Conformal vs Seasonal Naive None,All Pairs (N=363),66918.16,75417.49,-8499.34,"[-13434.60, -3537.57]",0.005,94.74,92.77,1.97,"[-0.71, 4.35]",0.147,50.14
+Restricted (No-Fit),Quantile Conformal vs Seasonal Naive None,Excl Top 20 Volume (N=343),51227.08,56672.31,-5445.23,"[-9207.78, -1235.02]",0.021,95.85,92.13,3.73,"[1.40, 5.41]",0.005,48.69
+Restricted (No-Fit),Quantile Conformal vs Mean Gaussian Demand,All Pairs (N=363),66918.16,65345.74,1572.42,"[-2159.57, 5230.63]",0.401,94.74,90.59,4.15,"[2.95, 5.45]",0.0005,38.57
+Restricted (No-Fit),Quantile Conformal vs Mean Gaussian Demand,Excl Top 20 Volume (N=343),51227.08,49648.45,1578.63,"[-1270.22, 4449.99]",0.305,95.85,90.73,5.12,"[3.63, 6.46]",0.0005,38.78
+Quantile Ablation,Quantile Conformal vs Quantile Raw,All Pairs (N=363),66918.16,67157.98,-239.83,"[-625.69, 319.99]",0.287,94.74,94.99,-0.25,"[-0.45, -0.11]",0.0005,79.06
+Quantile Ablation,Quantile Conformal vs Quantile Raw,Excl Top 20 Volume (N=343),51227.08,51608.7,-381.62,"[-559.32, -165.83]",0.001,95.85,96.02,-0.17,"[-0.29, -0.09]",0.0005,79.3
+Quantile Ablation,Quantile Conformal vs Quantile None,All Pairs (N=363),66918.16,77189.54,-10271.38,"[-18979.49, -2765.35]",0.003,94.74,91.54,3.2,"[0.63, 5.83]",0.013,47.38
+Quantile Ablation,Quantile Conformal vs Quantile None,Excl Top 20 Volume (N=343),51227.08,53474.31,-2247.22,"[-5232.63, 1573.90]",0.242,95.85,94.31,1.55,"[-0.49, 3.01]",0.143,45.77

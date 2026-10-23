@@ -1,0 +1,7 @@
+Buffer Name,Mathematical Definition,Validation-Fitted Statistics Used,Parameters Required
+none,SS = 0,None (0 fitted parameters),Zero (pure base-stock)
+gaussian_demand,SS = alpha * 1.282 * sigma_demand,None (uses trailing 28-day demand sigma preceding decision date),Zero validation residual statistics
+raw_quantile,"SS = alpha * sum(max(0, P90_raw - P50))",None (uses raw multi-horizon model output quantiles),Zero validation residual statistics or offsets
+conformal_quantile,"SS = alpha * sum(max(0, (P90_raw + offset_tier) - P50))","2 scalar conformal calibration offsets (c_std = +0.1785, c_hvol = +4.5766)",2 scalar non-conformity quantiles (distribution-free)
+gaussian_residual,SS = alpha * 1.282 * sigma_residual,363 pair-specific 1-step validation residual standard deviations,363 fitted standard deviations (assumes residual normality)
+empirical_residual,SS = alpha * q90(residuals),363 pair-specific 90th percentiles of validation residuals,363 fitted empirical residual quantiles

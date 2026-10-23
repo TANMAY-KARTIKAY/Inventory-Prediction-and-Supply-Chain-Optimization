@@ -1,0 +1,4 @@
+Row,Before Beta*,After Beta*,Before Test Cost ($),After Test Cost ($),Delta Cost ($),Before Test SL (%),After Test SL (%),Changed?
+"Huber + Multiplier k (No Buffer (k, beta only))",1.3622,1.3622,117585.07,117585.07,0.0,92.21,92.21,True
+"Huber + Multiplier k (Gaussian Buffer (k, alpha, beta))",1.3413,1.3413,117851.05,117851.05,0.0,92.08,92.08,True
+"Huber + Multiplier k (Empirical Residual Buffer (k, alpha, beta))",1.4903,1.4903,121965.8,121965.8,0.0,92.25,92.25,True

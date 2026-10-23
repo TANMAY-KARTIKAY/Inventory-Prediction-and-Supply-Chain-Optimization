@@ -1,0 +1,10 @@
+Component,Before Beta*,After Beta*,Before Test Cost ($),After Test Cost ($),Delta Cost ($),Before Test SL (%),After Test SL (%),Changed?
+No Safety Stock (alpha=0),2.1803,3.9731,118887.27,122947.04,4059.77,93.12,92.38,True
+"No Safety Stock (Huber, alpha=0)",4.3955,4.9979,131901.08,133835.89,1934.81,93.12,91.89,True
+Gaussian Buffer (Validation Residuals),1.7592,1.1014,124169.18,112589.05,-11580.13,94.18,93.21,True
+Gaussian Buffer (Huber Residuals),1.4666,1.3591,127793.12,119143.89,-8649.23,93.62,92.52,True
+Empirical Residual Quantile Buffer,2.2439,1.0192,123663.21,115256.15,-8407.06,93.91,93.0,True
+Empirical Residual Quantile (Huber),2.1796,0.925,131456.38,121989.75,-9466.63,93.9,92.55,True
+Raw Quantile Buffer (P90_raw - P50),1.6747,1.0984,118105.59,110205.76,-7899.83,94.05,93.41,True
+Conformal Quantile Buffer (Calibrated),1.7514,1.2172,118981.11,112675.54,-6305.57,94.29,93.82,True
+Rolling Origin Conformal Buffer (Daily Updated),1.7642,1.0807,117224.82,110505.72,-6719.1,92.97,93.42,True

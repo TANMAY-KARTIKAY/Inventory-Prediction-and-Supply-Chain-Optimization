@@ -1,0 +1,4 @@
+Comparison,Diebold-Mariano Stat (HAC),Diebold-Mariano p-value,Wilcoxon W-Stat (Pairs N=363),Wilcoxon p-value,Quantile Pair Win Rate (%),Mean Pair MAE Quantile,Mean Pair MAE Baseline,Statistical Conclusion
+Quantile TFT (P50) vs Huber TFT,0.3523,0.7246,30736.0,0.2509,49.86,12.7978,12.7634,No significant gap (p=0.725)
+Quantile TFT (P50) vs Trailing 28-day Mean,-22.1709,0.0,6238.0,0.0,82.09,12.7978,17.0033,Quantile superior (p < 0.001)
+Quantile TFT (P50) vs Seasonal Naive (Lag 7),-17.7961,0.0,2683.0,0.0,92.29,12.7978,19.8606,Quantile superior (p < 0.001)

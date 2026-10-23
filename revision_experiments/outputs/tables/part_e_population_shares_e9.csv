@@ -1,0 +1,4 @@
+Demand Bin,Count,Population Share (%)
+Low (<10 units/day),72,19.83
+Medium (10-100 units/day),260,71.63
+High (>=100 units/day),31,8.54

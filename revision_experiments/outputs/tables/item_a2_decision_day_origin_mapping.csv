@@ -1,0 +1,16 @@
+Day Index t,Decision Date,Origin Feeding Day t,Forecast Target Span,First Target Day Already Occurred?,Order Arrives Inside 15d Window?
+0,2017-08-01,Origin 1 (Lookback ends 2017-08-01),2017-08-02 to 2017-08-08,False,True
+1,2017-08-02,Origin 2 (Lookback ends 2017-08-02),2017-08-03 to 2017-08-09,False,True
+2,2017-08-03,Origin 3 (Lookback ends 2017-08-03),2017-08-04 to 2017-08-10,False,True
+3,2017-08-04,Origin 4 (Lookback ends 2017-08-04),2017-08-05 to 2017-08-11,False,True
+4,2017-08-05,Origin 5 (Lookback ends 2017-08-05),2017-08-06 to 2017-08-12,False,True
+5,2017-08-06,Origin 6 (Lookback ends 2017-08-06),2017-08-07 to 2017-08-13,False,True
+6,2017-08-07,Origin 7 (Lookback ends 2017-08-07),2017-08-08 to 2017-08-14,False,True
+7,2017-08-08,Origin 8 (Lookback ends 2017-08-08),2017-08-09 to 2017-08-15,False,True
+8,2017-08-09,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+9,2017-08-10,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+10,2017-08-11,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+11,2017-08-12,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+12,2017-08-13,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+13,2017-08-14,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False
+14,2017-08-15,"Origin 8 (Lookback ended 2017-08-08, frozen)",2017-08-09 to 2017-08-15,True,False

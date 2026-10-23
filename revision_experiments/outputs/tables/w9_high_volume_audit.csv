@@ -1,0 +1,12 @@
+Field / Parameter,Value / Definition,Explanation
+Total Pairs in selected_pairs.csv,400,Full candidate selection cohort
+Active Test Pairs (sequences_test.npz),363,Active evaluation pairs after filtering empty test sequences
+average_sales Definition,total_sales / observation_count,Mean sales per active observation day (non-zero sales days in train.csv)
+average_sales Mean (400 Cohort),50.38,Average across 400 selected pairs
+average_sales Median (400 Cohort),31.35,Median sales is 31.35; explains why typical SKU sales < 100
+average_sales Max (400 Cohort),496.66,Maximum SKU average sales in cohort
+SKUs with average_sales >= 100 (400 Cohort),52,Exactly 52 SKUs in the 400 cohort qualify as High-Volume (is_high_vol)
+SKUs with average_sales >= 100 (Active 363 Cohort),50,Exactly 50 SKUs in active 363 cohort qualify as High-Volume
+demand_bin Quintile Labels (Candidates Pool),"pd.qcut(rank, q=5, ['very_low', 'low', 'mid', 'high', 'very_high'])",Quintile division across the entire candidate pool of store-item pairs
+demand_bin Counts (400 Cohort),"{'very_high': 353, 'high': 22, 'mid': 17, 'low': 6, 'very_low': 2}","very_high: 353, high: 22, mid: 17, low: 6, very_low: 2 (skewed because priority score favors high volume)"
+demand_bin Counts (Active 363 Cohort),"{'very_high': 322, 'high': 21, 'mid': 13, 'low': 5, 'very_low': 2}","very_high: 319, high: 20, mid: 16, low: 6, very_low: 2"
