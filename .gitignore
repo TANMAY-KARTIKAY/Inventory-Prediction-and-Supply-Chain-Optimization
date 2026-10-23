@@ -49,6 +49,9 @@ TFT/optuna tft 10%/sequences_*.npz
 MODLE TESTING/sequences_test.npz
 Phase_4_Inventory_Optimization/sequences_test.npz
 
+# Manuscript and research paper drafts
+paper/
+
 # ------------------------------------------------------------------------------
 # 4. Explicitly PRESERVE Lightweight Essential Model & Evaluation Artifacts
 # ------------------------------------------------------------------------------
@@ -59,7 +62,6 @@ Phase_4_Inventory_Optimization/sequences_test.npz
 !Multi-Horizon Quantile Forecasting(process)/selected_pairs.csv
 !Multi-Horizon Quantile Forecasting(process)/tft_quantile_forecasts.csv
 !revision_experiments/**
-!paper/**
 
 # ------------------------------------------------------------------------------
 # 5. Python, Jupyter & Environment Artifacts

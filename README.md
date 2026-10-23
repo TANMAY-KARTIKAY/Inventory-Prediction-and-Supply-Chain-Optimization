@@ -100,9 +100,6 @@ All numbers and tables are audited, verified, and locked against empirical outpu
 │   ├── scale_splits(7).py              # Feature scaling
 │   └── generate_sequences_multivariate(8).py # 3D temporal sequence tensor generation
 ├── Phase_4_Inventory_Optimization/     # Policy optimization analysis & dashboards
-├── paper/                              # Manuscript drafts, LaTeX source, and figures
-│   ├── manuscript.md                   # Full research paper manuscript
-│   └── manuscript_clean.docx           # Publication-ready submission document
 ├── requirements.txt                    # Python runtime dependencies
 ├── .gitignore                          # Git exclude rules for multi-gigabyte raw dumps
 └── README.md                           # Project documentation
